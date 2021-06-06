@@ -9,9 +9,9 @@ import Foundation
 
 struct Person: Hashable {
     let name: String
+    
+    // MARK: Hashable
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+    }
 }
-
-let persons = [
-Person(name: "Rex"),
-Person(name: "Sarah"),
-Person(name: "Barry")]

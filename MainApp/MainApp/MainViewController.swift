@@ -6,12 +6,17 @@
 //
 
 import UIKit
+import Combine
 
 class MainViewController: UIViewController,
                           UICollectionViewDelegate,
                           UICollectionViewDataSource,
                           UICollectionViewDelegateFlowLayout {
 
+    @Published var canSendMessage: Bool = false
+    private var sendSubscriber: AnyCancellable!
+    var sendButton: UIButton!
+    var switchToggle: UISwitch!
     var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +38,27 @@ class MainViewController: UIViewController,
             collectionView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
             collectionView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor)
         ])
+
+        sendButton = UIButton.init(frame: CGRect(x: 10, y: 10, width: 100, height: 60))
+        sendButton.layer.borderWidth = 1
+        sendButton.setTitle("SEND", for: .normal)
+        sendButton.setTitleColor(.blue, for: .normal)
+        sendButton.setTitleColor(.lightGray, for: .disabled)
+        sendButton.backgroundColor = .white
+        self.view.addSubview(sendButton)
+
+        sendSubscriber = $canSendMessage.receive(on: DispatchQueue.main).assign(to: \.isEnabled, on: sendButton)
+
+        switchToggle = UISwitch.init(frame:
+                                        CGRect(origin: CGPoint.init(x: 100, y: 100),
+                                               size: CGSize(width: 100, height: 60)))
+        self.view.addSubview(switchToggle)
+        switchToggle.addTarget(self, action: #selector(onToggle(sender:)), for: .valueChanged)
+    }
+    @objc
+    func onToggle(sender: UISwitch) {
+        print(sender)
+        canSendMessage = sender.isOn
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
