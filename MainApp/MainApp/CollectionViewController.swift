@@ -7,11 +7,11 @@
 
 import UIKit
 
-class MainViewController: UIViewController,
-                          UICollectionViewDelegate,
-                          UICollectionViewDataSource,
-                          UICollectionViewDelegateFlowLayout {
-
+class CollectionViewController: UIViewController,
+                                UICollectionViewDelegate,
+                                UICollectionViewDataSource,
+                                UICollectionViewDelegateFlowLayout {
+    
     var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +21,12 @@ class MainViewController: UIViewController,
         collectionView = UICollectionView.init(frame: .zero, collectionViewLayout: flowLayout)
         collectionView.backgroundColor = .darkGray
         collectionView.translatesAutoresizingMaskIntoConstraints = false
-        collectionView.register(MainCollectionViewCell.self,
-                                forCellWithReuseIdentifier: MainCollectionViewCell.reuseIdentifier)
+        collectionView.register(CollectionViewCell.self,
+                                forCellWithReuseIdentifier: CollectionViewCell.reuseIdentifier)
         self.view.addSubview(collectionView)
         collectionView.delegate = self
         collectionView.dataSource = self
-
+        
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: self.view.topAnchor),
             collectionView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
@@ -39,7 +39,7 @@ class MainViewController: UIViewController,
     }
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MainCollectionViewCell.reuseIdentifier,
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.reuseIdentifier,
                                                       for: indexPath)
         return cell
     }

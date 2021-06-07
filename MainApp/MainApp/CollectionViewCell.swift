@@ -1,5 +1,5 @@
 //
-//  MainCollectionViewCell.swift
+//  CollectionViewCell.swift
 //  MainApp
 //
 //  Created by Rex Chen on 2021/6/5.
@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 
-class MainCollectionViewCell: UICollectionViewCell {
+class CollectionViewCell: UICollectionViewCell {
 
     static var reuseIdentifier = "MainCollectionViewCell"
     lazy var host: UIHostingController = {

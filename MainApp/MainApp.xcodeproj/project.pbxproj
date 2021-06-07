@@ -15,10 +15,11 @@
 		F70B4D3B266BD2930019C198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70B4D39266BD2930019C198 /* LaunchScreen.storyboard */; };
 		F70B4D46266BD2930019C198 /* MainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D45266BD2930019C198 /* MainAppTests.swift */; };
 		F70B4D51266BD2930019C198 /* MainAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D50266BD2930019C198 /* MainAppUITests.swift */; };
-		F70B4D5F266BD3C30019C198 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D5E266BD3C30019C198 /* MainViewController.swift */; };
-		F70B4D61266BD4CC0019C198 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D60266BD4CC0019C198 /* MainCollectionViewCell.swift */; };
+		F70B4D5F266BD3C30019C198 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D5E266BD3C30019C198 /* CollectionViewController.swift */; };
+		F70B4D61266BD4CC0019C198 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D60266BD4CC0019C198 /* CollectionViewCell.swift */; };
 		F70B4D63266BD56D0019C198 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D62266BD56D0019C198 /* Card.swift */; };
 		F70B4D66266BDEDB0019C198 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D65266BDEDB0019C198 /* PersonModel.swift */; };
+		F7467ED1266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7467ED0266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +54,11 @@
 		F70B4D4C266BD2930019C198 /* MainAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70B4D50266BD2930019C198 /* MainAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppUITests.swift; sourceTree = "<group>"; };
 		F70B4D52266BD2930019C198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F70B4D5E266BD3C30019C198 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		F70B4D60266BD4CC0019C198 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		F70B4D5E266BD3C30019C198 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		F70B4D60266BD4CC0019C198 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		F70B4D62266BD56D0019C198 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F70B4D65266BDEDB0019C198 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		F7467ED0266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableIOS14CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +116,11 @@
 				F70B4D39266BD2930019C198 /* LaunchScreen.storyboard */,
 				F70B4D3C266BD2930019C198 /* Info.plist */,
 				F70B4D36266BD2930019C198 /* Preview Content */,
-				F70B4D5E266BD3C30019C198 /* MainViewController.swift */,
-				F70B4D60266BD4CC0019C198 /* MainCollectionViewCell.swift */,
+				F70B4D5E266BD3C30019C198 /* CollectionViewController.swift */,
+				F70B4D60266BD4CC0019C198 /* CollectionViewCell.swift */,
 				F70B4D62266BD56D0019C198 /* Card.swift */,
 				F70B4D65266BDEDB0019C198 /* PersonModel.swift */,
+				F7467ED0266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift */,
 			);
 			path = MainApp;
 			sourceTree = "<group>";
@@ -300,12 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70B4D2F266BD2900019C198 /* AppDelegate.swift in Sources */,
+				F7467ED1266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift in Sources */,
 				F70B4D66266BDEDB0019C198 /* PersonModel.swift in Sources */,
 				F70B4D63266BD56D0019C198 /* Card.swift in Sources */,
 				F70B4D31266BD2900019C198 /* SceneDelegate.swift in Sources */,
-				F70B4D61266BD4CC0019C198 /* MainCollectionViewCell.swift in Sources */,
+				F70B4D61266BD4CC0019C198 /* CollectionViewCell.swift in Sources */,
 				F70B4D33266BD2900019C198 /* ContentView.swift in Sources */,
-				F70B4D5F266BD3C30019C198 /* MainViewController.swift in Sources */,
+				F70B4D5F266BD3C30019C198 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +482,7 @@
 				DEVELOPMENT_TEAM = 6P7LJS7G56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MainApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,6 +504,7 @@
 				DEVELOPMENT_TEAM = 6P7LJS7G56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MainApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
