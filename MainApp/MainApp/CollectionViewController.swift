@@ -9,8 +9,7 @@ import UIKit
 
 class CollectionViewController: UIViewController,
                                 UICollectionViewDelegate,
-                                UICollectionViewDataSource,
-                                UICollectionViewDelegateFlowLayout {
+                                UICollectionViewDataSource {
     
     var collectionView: UICollectionView!
     override func viewDidLoad() {
@@ -18,6 +17,7 @@ class CollectionViewController: UIViewController,
         let flowLayout: UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
         flowLayout.minimumLineSpacing = 0
         flowLayout.minimumInteritemSpacing = 0
+        flowLayout.itemSize = CGSize(width: self.view.bounds.size.width, height: 400)
         collectionView = UICollectionView.init(frame: .zero, collectionViewLayout: flowLayout)
         collectionView.backgroundColor = .darkGray
         collectionView.translatesAutoresizingMaskIntoConstraints = false
@@ -26,7 +26,7 @@ class CollectionViewController: UIViewController,
         self.view.addSubview(collectionView)
         collectionView.delegate = self
         collectionView.dataSource = self
-        
+
         NSLayoutConstraint.activate([
             collectionView.topAnchor.constraint(equalTo: self.view.topAnchor),
             collectionView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
@@ -42,10 +42,5 @@ class CollectionViewController: UIViewController,
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.reuseIdentifier,
                                                       for: indexPath)
         return cell
-    }
-    func collectionView(_ collectionView: UICollectionView,
-                        layout collectionViewLayout: UICollectionViewLayout,
-                        sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.view.bounds.size.width, height: 400)
     }
 }

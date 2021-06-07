@@ -37,13 +37,10 @@ class DiffableIOS14CollectionViewController: UIViewController {
 
         var sectionSnapshot = NSDiffableDataSourceSectionSnapshot<OutlineItem>()
         for data in hirerachicalData {
-            
             let header = OutlineItem.parent(data)
             sectionSnapshot.append([header])
             sectionSnapshot.append(data.childItems.map { OutlineItem.child($0) }, to: header)
             sectionSnapshot.expand([header])
-            
-            // sectionSnapshot.append(data.childItems.map { OutlineItem.child($0) })
         }
         dataSource.apply(sectionSnapshot, to: "Root", animatingDifferences: false, completion: nil)
     }

@@ -20,6 +20,8 @@
 		F70B4D63266BD56D0019C198 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D62266BD56D0019C198 /* Card.swift */; };
 		F70B4D66266BDEDB0019C198 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D65266BDEDB0019C198 /* PersonModel.swift */; };
 		F7467ED1266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7467ED0266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift */; };
+		F7467EE2266E0E7000A47B96 /* DiffableDataSourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7467EE1266E0E7000A47B96 /* DiffableDataSourceViewController.swift */; };
+		F7467EE7266E1E9E00A47B96 /* DiffableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7467EE6266E1E9E00A47B96 /* DiffableCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		F70B4D62266BD56D0019C198 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F70B4D65266BDEDB0019C198 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 		F7467ED0266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableIOS14CollectionViewController.swift; sourceTree = "<group>"; };
+		F7467EE1266E0E7000A47B96 /* DiffableDataSourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourceViewController.swift; sourceTree = "<group>"; };
+		F7467EE6266E1E9E00A47B96 /* DiffableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				F70B4D62266BD56D0019C198 /* Card.swift */,
 				F70B4D65266BDEDB0019C198 /* PersonModel.swift */,
 				F7467ED0266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift */,
+				F7467EE1266E0E7000A47B96 /* DiffableDataSourceViewController.swift */,
+				F7467EE6266E1E9E00A47B96 /* DiffableCollectionViewCell.swift */,
 			);
 			path = MainApp;
 			sourceTree = "<group>";
@@ -304,7 +310,9 @@
 			files = (
 				F70B4D2F266BD2900019C198 /* AppDelegate.swift in Sources */,
 				F7467ED1266DF68D00A47B96 /* DiffableIOS14CollectionViewController.swift in Sources */,
+				F7467EE7266E1E9E00A47B96 /* DiffableCollectionViewCell.swift in Sources */,
 				F70B4D66266BDEDB0019C198 /* PersonModel.swift in Sources */,
+				F7467EE2266E0E7000A47B96 /* DiffableDataSourceViewController.swift in Sources */,
 				F70B4D63266BD56D0019C198 /* Card.swift in Sources */,
 				F70B4D31266BD2900019C198 /* SceneDelegate.swift in Sources */,
 				F70B4D61266BD4CC0019C198 /* CollectionViewCell.swift in Sources */,
