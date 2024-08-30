@@ -23,6 +23,11 @@ class MainAppTests: XCTestCase {
             let result = add(2, 3)
             XCTAssertEqual(result, 5, "Expected 2 + 3 to equal 5")
         }
+    
+        func testAddition2() throws {
+            let result = add(21, 3)
+            XCTAssertEqual(result, 24, "Expected 21 + 3 to equal 24")
+        }
 
         // Test Case 2: Test subtraction function
         func testSubtraction() throws {
