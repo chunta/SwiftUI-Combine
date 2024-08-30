@@ -1,10 +1,3 @@
-//
-//  MainAppTests.swift
-//  MainAppTests
-//
-//  Created by Rex Chen on 2021/6/5.
-//
-
 import XCTest
 @testable import MainApp
 
@@ -57,5 +50,4 @@ class MainAppTests: XCTestCase {
         guard b != 0 else { return nil }
         return a / b
     }
-    
 }
