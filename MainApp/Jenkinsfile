@@ -1,0 +1,28 @@
+pipeline {
+    agent {
+        node {
+            label 'built-in'
+        }
+    }
+    stages {
+        stage('Build Number') {
+            steps {
+                sh 'echo "Build number: ${BUILD_NUMBER}"'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'echo "Running iOS tests..."'
+                sh '''
+                    cd MainApp
+                    xcodebuild test -scheme MainApp -destination "platform=iOS Simulator,name=iPhone 15 Pro,OS=latest"
+                '''
+            }
+        }
+        stage('Delivery') {
+            steps {
+                sh 'echo \'Publish artifact over SSH.\''
+            }
+        }
+    }
+}
