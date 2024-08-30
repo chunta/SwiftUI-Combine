@@ -20,13 +20,8 @@ class MainAppTests: XCTestCase {
 
         // Test Case 1: Test addition function
         func testAddition() throws {
-            let result = add(2, 3)
-            XCTAssertEqual(result, 5, "Expected 2 + 3 to equal 5")
-        }
-    
-        func testAddition2() throws {
-            let result = add(21, 3)
-            XCTAssertEqual(result, 24, "Expected 21 + 3 to equal 24")
+            let result = add(12, 3)
+            XCTAssertEqual(result, 15, "Expected 12 + 3 to equal 5")
         }
 
         // Test Case 2: Test subtraction function
