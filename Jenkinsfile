@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    options {
+        githubNotify context: 'Build', description: 'Jenkins job is about to start', status: 'PENDING'
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -25,8 +29,13 @@ pipeline {
     }
 
     post {
+        success {
+            githubNotify context: 'Build', description: 'Build succeeded', status: 'SUCCESS'
+        }
+        failure {
+            githubNotify context: 'Build', description: 'Build failed', status: 'FAILURE'
+        }
         always {
-            // Clean up or notifications
             echo 'Finished PR Build'
         }
     }
