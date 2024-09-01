@@ -28,20 +28,20 @@ class MainAppTests: XCTestCase {
         XCTAssertNil(result, "Expected division by zero to return nil")
     }
     
-    func add(_ a: Int, _ b: Int) -> Int {
-        return a + b
+    func add(_ firstNumber: Int, _ secondNumber: Int) -> Int {
+        return firstNumber + secondNumber
     }
-    
-    func subtract(_ a: Int, _ b: Int) -> Int {
-        return a - b
+
+    func subtract(_ minuend: Int, _ subtrahend: Int) -> Int {
+        return minuend - subtrahend
     }
-    
-    func multiply(_ a: Int, _ b: Int) -> Int {
-        return a * b
+
+    func multiply(_ multiplicand: Int, _ multiplier: Int) -> Int {
+        return multiplicand * multiplier
     }
-    
-    func divide(_ a: Int, _ b: Int) -> Int? {
-        guard b != 0 else { return nil }
-        return a / b
+
+    func divide(_ dividend: Int, _ divisor: Int) -> Int? {
+        guard divisor != 0 else { return nil }
+        return dividend / divisor
     }
 }
