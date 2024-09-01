@@ -1,10 +1,3 @@
-//
-//  MainViewController.swift
-//  MainApp
-//
-//  Created by Rex Chen on 2021/6/5.
-//
-
 import UIKit
 
 class MainViewController: UIViewController,

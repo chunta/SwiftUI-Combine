@@ -1,10 +1,3 @@
-//
-//  Card.swift
-//  MainApp
-//
-//  Created by Rex Chen on 2021/6/5.
-//
-
 import Foundation
 import SwiftUI
 

@@ -4,8 +4,8 @@ import XCTest
 class MainAppTests: XCTestCase {
 
     func testAddition() throws {
-        let result = add(12, 3)
-        XCTAssertEqual(result, 15, "Expected 12 + 3 to equal 5")
+        let result = add(121, 3)
+        XCTAssertEqual(result, 124, "Expected 121 + 3 to equal 124")
     }
     
     func testSubtraction() throws {
