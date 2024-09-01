@@ -1,10 +1,3 @@
-//
-//  PersonModel.swift
-//  MainApp
-//
-//  Created by Rex Chen on 2021/6/6.
-//
-
 import Foundation
 
 struct Person: Hashable {
