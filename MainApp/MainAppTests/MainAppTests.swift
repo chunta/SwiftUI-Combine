@@ -28,6 +28,11 @@ class MainAppTests: XCTestCase {
         XCTAssertNil(result, "Expected division by zero to return nil")
     }
     
+    func testDivisionBy2() throws {
+        let result = divide(10, 2)
+        XCTAssertEqual(result, 5, "Expected division by zero to return 5")
+    }
+    
     func add(_ firstNumber: Int, _ secondNumber: Int) -> Int {
         return firstNumber + secondNumber
     }
