@@ -2,8 +2,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, the big world!")
-            .padding()
+        VStack {
+            Text("1")
+            Text("1")
+        }
     }
 }
 
