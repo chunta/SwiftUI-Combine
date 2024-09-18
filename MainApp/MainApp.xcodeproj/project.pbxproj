@@ -18,6 +18,26 @@
 		F70B4D61266BD4CC0019C198 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D60266BD4CC0019C198 /* MainCollectionViewCell.swift */; };
 		F70B4D63266BD56D0019C198 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D62266BD56D0019C198 /* Card.swift */; };
 		F70B4D66266BDEDB0019C198 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D65266BDEDB0019C198 /* PersonModel.swift */; };
+		F7F6F8D82C9A9EB2004A9EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D2E266BD2900019C198 /* AppDelegate.swift */; };
+		F7F6F8D92C9A9EB2004A9EF5 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D65266BDEDB0019C198 /* PersonModel.swift */; };
+		F7F6F8DA2C9A9EB2004A9EF5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D62266BD56D0019C198 /* Card.swift */; };
+		F7F6F8DB2C9A9EB2004A9EF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D30266BD2900019C198 /* SceneDelegate.swift */; };
+		F7F6F8DC2C9A9EB2004A9EF5 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D60266BD4CC0019C198 /* MainCollectionViewCell.swift */; };
+		F7F6F8DD2C9A9EB2004A9EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D32266BD2900019C198 /* ContentView.swift */; };
+		F7F6F8DE2C9A9EB2004A9EF5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D5E266BD3C30019C198 /* MainViewController.swift */; };
+		F7F6F8E12C9A9EB2004A9EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70B4D39266BD2930019C198 /* LaunchScreen.storyboard */; };
+		F7F6F8E22C9A9EB2004A9EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70B4D37266BD2930019C198 /* Preview Assets.xcassets */; };
+		F7F6F8E32C9A9EB2004A9EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70B4D34266BD2930019C198 /* Assets.xcassets */; };
+		F7F6F8EC2C9AA20E004A9EF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D2E266BD2900019C198 /* AppDelegate.swift */; };
+		F7F6F8ED2C9AA20E004A9EF5 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D65266BDEDB0019C198 /* PersonModel.swift */; };
+		F7F6F8EE2C9AA20E004A9EF5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D62266BD56D0019C198 /* Card.swift */; };
+		F7F6F8EF2C9AA20E004A9EF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D30266BD2900019C198 /* SceneDelegate.swift */; };
+		F7F6F8F02C9AA20E004A9EF5 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D60266BD4CC0019C198 /* MainCollectionViewCell.swift */; };
+		F7F6F8F12C9AA20E004A9EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D32266BD2900019C198 /* ContentView.swift */; };
+		F7F6F8F22C9AA20E004A9EF5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B4D5E266BD3C30019C198 /* MainViewController.swift */; };
+		F7F6F8F52C9AA20E004A9EF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70B4D39266BD2930019C198 /* LaunchScreen.storyboard */; };
+		F7F6F8F62C9AA20E004A9EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70B4D37266BD2930019C198 /* Preview Assets.xcassets */; };
+		F7F6F8F72C9AA20E004A9EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70B4D34266BD2930019C198 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +66,10 @@
 		F70B4D60266BD4CC0019C198 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		F70B4D62266BD56D0019C198 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F70B4D65266BDEDB0019C198 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		F7F6F8E82C9A9EB2004A9EF5 /* MainAppUAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainAppUAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F6F8E92C9A9EB2004A9EF5 /* MainApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MainApp copy-Info.plist"; path = "/Users/rexchen/workspace/SwiftUI-Combine/MainApp/MainApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		F7F6F8FC2C9AA20E004A9EF5 /* MainAppPRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainAppPRO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F6F8FD2C9AA20E004A9EF5 /* MainAppUAT copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MainAppUAT copy-Info.plist"; path = "/Users/rexchen/workspace/SwiftUI-Combine/MainApp/MainAppUAT copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +87,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7F6F8DF2C9A9EB2004A9EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F6F8F32C9AA20E004A9EF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +110,8 @@
 				F70B4D2D266BD2900019C198 /* MainApp */,
 				F70B4D44266BD2930019C198 /* MainAppTests */,
 				F70B4D2C266BD2900019C198 /* Products */,
+				F7F6F8E92C9A9EB2004A9EF5 /* MainApp copy-Info.plist */,
+				F7F6F8FD2C9AA20E004A9EF5 /* MainAppUAT copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +120,8 @@
 			children = (
 				F70B4D2B266BD2900019C198 /* MainApp.app */,
 				F70B4D41266BD2930019C198 /* MainAppTests.xctest */,
+				F7F6F8E82C9A9EB2004A9EF5 /* MainAppUAT.app */,
+				F7F6F8FC2C9AA20E004A9EF5 /* MainAppPRO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +200,42 @@
 			productReference = F70B4D41266BD2930019C198 /* MainAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F7F6F8D62C9A9EB2004A9EF5 /* MainAppUAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F6F8E52C9A9EB2004A9EF5 /* Build configuration list for PBXNativeTarget "MainAppUAT" */;
+			buildPhases = (
+				F7F6F8D72C9A9EB2004A9EF5 /* Sources */,
+				F7F6F8DF2C9A9EB2004A9EF5 /* Frameworks */,
+				F7F6F8E02C9A9EB2004A9EF5 /* Resources */,
+				F7F6F8E42C9A9EB2004A9EF5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MainAppUAT;
+			productName = MainApp;
+			productReference = F7F6F8E82C9A9EB2004A9EF5 /* MainAppUAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7F6F8EA2C9AA20E004A9EF5 /* MainAppPRO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F6F8F92C9AA20E004A9EF5 /* Build configuration list for PBXNativeTarget "MainAppPRO" */;
+			buildPhases = (
+				F7F6F8EB2C9AA20E004A9EF5 /* Sources */,
+				F7F6F8F32C9AA20E004A9EF5 /* Frameworks */,
+				F7F6F8F42C9AA20E004A9EF5 /* Resources */,
+				F7F6F8F82C9AA20E004A9EF5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MainAppPRO;
+			productName = MainApp;
+			productReference = F7F6F8FC2C9AA20E004A9EF5 /* MainAppPRO.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +268,8 @@
 			projectRoot = "";
 			targets = (
 				F70B4D2A266BD2900019C198 /* MainApp */,
+				F7F6F8D62C9A9EB2004A9EF5 /* MainAppUAT */,
+				F7F6F8EA2C9AA20E004A9EF5 /* MainAppPRO */,
 				F70B4D40266BD2930019C198 /* MainAppTests */,
 			);
 		};
@@ -213,10 +293,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7F6F8E02C9A9EB2004A9EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F6F8E12C9A9EB2004A9EF5 /* LaunchScreen.storyboard in Resources */,
+				F7F6F8E22C9A9EB2004A9EF5 /* Preview Assets.xcassets in Resources */,
+				F7F6F8E32C9A9EB2004A9EF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F6F8F42C9AA20E004A9EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F6F8F52C9AA20E004A9EF5 /* LaunchScreen.storyboard in Resources */,
+				F7F6F8F62C9AA20E004A9EF5 /* Preview Assets.xcassets in Resources */,
+				F7F6F8F72C9AA20E004A9EF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		F70B4D64266BD8720019C198 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		F7F6F8E42C9A9EB2004A9EF5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		F7F6F8F82C9AA20E004A9EF5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,6 +389,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70B4D46266BD2930019C198 /* MainAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F6F8D72C9A9EB2004A9EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F6F8D82C9A9EB2004A9EF5 /* AppDelegate.swift in Sources */,
+				F7F6F8D92C9A9EB2004A9EF5 /* PersonModel.swift in Sources */,
+				F7F6F8DA2C9A9EB2004A9EF5 /* Card.swift in Sources */,
+				F7F6F8DB2C9A9EB2004A9EF5 /* SceneDelegate.swift in Sources */,
+				F7F6F8DC2C9A9EB2004A9EF5 /* MainCollectionViewCell.swift in Sources */,
+				F7F6F8DD2C9A9EB2004A9EF5 /* ContentView.swift in Sources */,
+				F7F6F8DE2C9A9EB2004A9EF5 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F6F8EB2C9AA20E004A9EF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F6F8EC2C9AA20E004A9EF5 /* AppDelegate.swift in Sources */,
+				F7F6F8ED2C9AA20E004A9EF5 /* PersonModel.swift in Sources */,
+				F7F6F8EE2C9AA20E004A9EF5 /* Card.swift in Sources */,
+				F7F6F8EF2C9AA20E004A9EF5 /* SceneDelegate.swift in Sources */,
+				F7F6F8F02C9AA20E004A9EF5 /* MainCollectionViewCell.swift in Sources */,
+				F7F6F8F12C9AA20E004A9EF5 /* ContentView.swift in Sources */,
+				F7F6F8F22C9AA20E004A9EF5 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,12 +570,17 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
 				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEV=1",
+					"DEBUG=1",
+				);
 				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mildgrind.icefuse.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -435,12 +602,14 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
 				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEV=1";
 				INFOPLIST_FILE = MainApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDEV";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mildgrind.icefuse.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -494,6 +663,128 @@
 			};
 			name = Release;
 		};
+		F7F6F8E62C9A9EB2004A9EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MainApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UAT=1",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "MainApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DUAT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mildgrind.icefuse.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IceFuse Dev";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7F6F8E72C9A9EB2004A9EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MainApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "UAT=1";
+				INFOPLIST_FILE = "MainApp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DUAT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mildgrind.icefuse.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IceFuse Dev";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7F6F8FA2C9AA20E004A9EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MainApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PRO=1",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "MainAppUAT copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DPRO";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mildgrind.icefuse.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IceFuse Dev";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7F6F8FB2C9AA20E004A9EF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MainApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
+				ENABLE_PREVIEWS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "PRO=1";
+				INFOPLIST_FILE = "MainAppUAT copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DPRO";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mildgrind.icefuse.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "IceFuse Dev";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -520,6 +811,24 @@
 			buildConfigurations = (
 				F70B4D59266BD2930019C198 /* Debug */,
 				F70B4D5A266BD2930019C198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F6F8E52C9A9EB2004A9EF5 /* Build configuration list for PBXNativeTarget "MainAppUAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F6F8E62C9A9EB2004A9EF5 /* Debug */,
+				F7F6F8E72C9A9EB2004A9EF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F6F8F92C9AA20E004A9EF5 /* Build configuration list for PBXNativeTarget "MainAppPRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F6F8FA2C9AA20E004A9EF5 /* Debug */,
+				F7F6F8FB2C9AA20E004A9EF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
