@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F70B4D2A266BD2900019C198"
-               BuildableName = "MainApp.app"
-               BlueprintName = "MainApp"
+               BuildableName = "MainAppDEV.app"
+               BlueprintName = "MainAppDEV"
                ReferencedContainer = "container:MainApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,16 +27,32 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:MainAppDEV.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F70B4D40266BD2930019C198"
                BuildableName = "MainAppTests.xctest"
                BlueprintName = "MainAppTests"
+               ReferencedContainer = "container:MainApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F7F091B52C9AA43C00FBE414"
+               BuildableName = "MainAppDEVTests.xctest"
+               BlueprintName = "MainAppDEVTests"
                ReferencedContainer = "container:MainApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -57,8 +73,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F70B4D2A266BD2900019C198"
-            BuildableName = "MainApp.app"
-            BlueprintName = "MainApp"
+            BuildableName = "MainAppDEV.app"
+            BlueprintName = "MainAppDEV"
             ReferencedContainer = "container:MainApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,8 +90,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F70B4D2A266BD2900019C198"
-            BuildableName = "MainApp.app"
-            BlueprintName = "MainApp"
+            BuildableName = "MainAppDEV.app"
+            BlueprintName = "MainAppDEV"
             ReferencedContainer = "container:MainApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -1,7 +1,13 @@
-import XCTest
-@testable import MainApp
+//
+//  MainAppDEVTests.swift
+//  MainAppDEVTests
+//
+//  Created by Rex Chen on 2024/9/18.
+//
 
-class MainAppTests: XCTestCase {
+import XCTest
+
+final class MainAppDEVTests: XCTestCase {
 
     func testAddition() throws {
         let result = add(121, 30)
@@ -44,4 +50,5 @@ class MainAppTests: XCTestCase {
         guard divisor != 0 else { return nil }
         return dividend / divisor
     }
+
 }
