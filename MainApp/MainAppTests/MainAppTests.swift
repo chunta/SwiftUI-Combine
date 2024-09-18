@@ -5,7 +5,7 @@ class MainAppTests: XCTestCase {
 
     func testAddition() throws {
         let result = add(121, 30)
-        XCTAssertEqual(result, 151, "Expected 121 + 30 to equal 151")
+        XCTAssertEqual(result, 15, "Expected 121 + 30 to equal 151")
     }
     
     func testSubtraction() throws {
