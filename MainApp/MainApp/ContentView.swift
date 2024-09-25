@@ -9,11 +9,17 @@ struct ContentView: View {
         return Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "Unknown Build"
     }
     
+    var appVersion: String {
+          if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String,
+             let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+              return "Version: \(version) (Build: \(build))"
+          }
+          return "Version info not available"
+      }
+    
     var body: some View {
         VStack {
-            Text("1")
-            Text("111")
-            Text("1111")
+            Text(appVersion)
 #if DEV
             Text("DEBUG Mode - Bundle Version: \(bundleVersion).\(bundleBuild)")
                 .padding()

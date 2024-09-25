@@ -586,7 +586,9 @@
 					"DEV=1",
 					"DEBUG=1",
 				);
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MainApp/Info-DEV.plist";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -615,7 +617,9 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
 				ENABLE_PREVIEWS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "DEV=1";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MainApp/Info-DEV.plist";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -696,7 +700,8 @@
 					"UAT=1",
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "Info-UAT.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MainApp/Info-UAT.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -725,7 +730,8 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
 				ENABLE_PREVIEWS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "UAT=1";
-				INFOPLIST_FILE = "Info-UAT.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MainApp/Info-UAT.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -757,7 +763,8 @@
 					"PRO=1",
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "Info-PRO.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MainApp/Info-PRO.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -786,7 +793,8 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6P7LJS7G56;
 				ENABLE_PREVIEWS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "PRO=1";
-				INFOPLIST_FILE = "Info-PRO.plist";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MainApp/Info-PRO.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

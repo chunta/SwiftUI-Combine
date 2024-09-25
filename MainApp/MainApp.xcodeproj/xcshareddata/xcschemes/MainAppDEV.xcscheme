@@ -36,16 +36,6 @@
       </TestPlans>
       <Testables>
          <TestableReference
-            skipped = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F70B4D40266BD2930019C198"
-               BuildableName = "MainAppTests.xctest"
-               BlueprintName = "MainAppTests"
-               ReferencedContainer = "container:MainApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
             skipped = "NO"
             parallelizable = "YES">
             <BuildableReference
