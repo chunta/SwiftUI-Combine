@@ -8,4 +8,3 @@ struct SwiftUIViewApp: App {
         }
     }
 }
-

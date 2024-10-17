@@ -5,6 +5,7 @@ struct Person: Hashable {
 }
 
 let persons = [
-Person(name: "Rex"),
-Person(name: "Sarah"),
-Person(name: "Barry")]
+    Person(name: "Rex"),
+    Person(name: "Sarah"),
+    Person(name: "Barry"),
+]

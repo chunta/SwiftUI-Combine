@@ -1,19 +1,20 @@
-import UIKit
 import SwiftUI
+import UIKit
 
 class MainCollectionViewCell: UICollectionViewCell {
-
     static var reuseIdentifier = "MainCollectionViewCell"
-    lazy var host: UIHostingController = {
-        return UIHostingController(rootView: Card())
-    }()
+    lazy var host: UIHostingController = .init(rootView: Card())
+
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.setupView()
+        setupView()
     }
-    required init?(coder: NSCoder) {
+
+    @available(*, unavailable)
+    required init?(coder _: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
     private func setupView() {
         host.view.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(host.view)
@@ -21,7 +22,7 @@ class MainCollectionViewCell: UICollectionViewCell {
             host.view.topAnchor.constraint(equalTo: contentView.topAnchor),
             host.view.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
             host.view.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            host.view.trailingAnchor.constraint(equalTo: contentView.trailingAnchor)
+            host.view.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
         ])
     }
 }
